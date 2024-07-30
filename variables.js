@@ -10,17 +10,37 @@
     ?? 3-Variable const: al igual que la anterior esta variable es de ambito local es decir, solo puede ser usada en su ambito de codigo o bloque de codigo.
     ?? al igual que puede ser immutable a lo largo del codigo o es decir no puede ser modificada dandole otro valor.
 */
+/* 
+? -Variable var-
+*/
+/*
+TODO: Se pueden guardar cualquier tipo de dato en la varible.s
+*/
+/*var nombre = "Angel";
+var edad = 20;
+var mayorEdad = trues;
 
-
-/*function ponerNombre()   {
-    let nombre = "Angel";
-
-}
-
-function mandarLlamarnombre()   {
-    console.log(nombre)
-
+if(mayorEdad == true  && edad >= 18){
+    console.log("eres mayor de edad")
 }*/
+/*
+TODO: Imprime el mensaje si la edad es mayor de 18.
+*/
 
-const nombre = "Angel";
-console.log(nombre);
+
+/*
+? -Variable let-
+*/
+
+/* 
+TODO:Se puede hacer lo mismo que la anterior en tema de funciones, simplemente que esta se usa mas actualmente.
+ */
+/*let nombre = "Mariana";
+let altura = 1.60;
+let mayorEdad = true;
+
+if(altura <= 1.65)
+{
+    console.log("Tas chikita xd")
+}
+*/
