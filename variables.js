@@ -16,13 +16,13 @@
 /*
 TODO: Se pueden guardar cualquier tipo de dato en la varible.s
 */
-/*var nombre = "Angel";
+var nombre = "Angel";
 var edad = 20;
 var mayorEdad = trues;
 
 if(mayorEdad == true  && edad >= 18){
     console.log("eres mayor de edad")
-}*/
+}
 /*
 TODO: Imprime el mensaje si la edad es mayor de 18.
 */
@@ -35,7 +35,7 @@ TODO: Imprime el mensaje si la edad es mayor de 18.
 /* 
 TODO:Se puede hacer lo mismo que la anterior en tema de funciones, simplemente que esta se usa mas actualmente.
  */
-/*let nombre = "Mariana";
+let nombre = "Mariana";
 let altura = 1.60;
 let mayorEdad = true;
 
@@ -43,4 +43,20 @@ if(altura <= 1.65)
 {
     console.log("Tas chikita xd")
 }
+
+
+/*
+? -Variable const-
 */
+
+/*
+TODO: Esta variable es parecida a las anteriores, pero con la diferencia de que no se puede reasignar una nueva valor a la variable.s
+*/
+const nombre2 = "Mariana";
+const altura1 = 1.60;
+
+/*
+TODO: Al borrar la linea donde se reasigna la variable, se imprime el mensaje con exito.
+*/
+console.log(nombre);
+console.log(altura);
