@@ -18,7 +18,7 @@ TODO: Se pueden guardar cualquier tipo de dato en la varible.s
 */
 var nombre = "Angel";
 var edad = 20;
-var mayorEdad = trues;
+var mayorEdad = true;
 
 if(mayorEdad == true  && edad >= 18){
     console.log("eres mayor de edad")
@@ -35,9 +35,7 @@ TODO: Imprime el mensaje si la edad es mayor de 18.
 /* 
 TODO:Se puede hacer lo mismo que la anterior en tema de funciones, simplemente que esta se usa mas actualmente.
  */
-let nombre = "Mariana";
 let altura = 1.60;
-let mayorEdad = true;
 
 if(altura <= 1.65)
 {
@@ -60,3 +58,62 @@ TODO: Al borrar la linea donde se reasigna la variable, se imprime el mensaje co
 */
 console.log(nombre);
 console.log(altura);
+
+
+var nanme = "Angel";
+var edad = 20;
+/*
+? Son para lo mismo xd 
+*/
+let name = "Mariana";
+let height = 1.60;
+
+
+/*
+TODO: las 3 tipos de variables pueden almacenar cualquier tipo de dato.s
+*/
+var texto = "Zi"
+var numero = 1
+var booleano = true
+var array = [1,2,3,4,5]
+var objeto = {name: "Angel", age: 20}
+var funcion = function(){
+    console.log("hola")
+}
+
+
+/*
+TODO: Var es global, let es local, const es de ambito local.
+*/
+
+function ejemploVar() {
+    console.log(x); // undefined, porque 'x' es elevada pero no inicializada
+    var x = 5;
+    console.log(x); // 5, porque ahora 'x' está inicializada
+}
+
+ejemploVar();
+
+function ejemploLet() {
+    // console.log(y); // Esto causará un error: Cannot access 'y' before initialization
+    let y = 10;
+    console.log(y); // 10, porque 'y' está inicializada
+}
+
+ejemploLet();
+
+
+/*
+TODO: La variable const es igual a las anteriores, 
+TODO: pero con la diferencia de que no se puede reasignar una nueva valor a la variable
+*/
+
+const namee = "Mariana";
+console.log(namee);
+namee = "Angel";
+console.log(namee);
+
+/*
+TODO: Al borrar la linea donde se reasigna la variable, 
+todo: se imprime el mensaje con exito, de lo contrario se mostrara el error.
+ */
